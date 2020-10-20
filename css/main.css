@@ -1,0 +1,326 @@
+/*! css for 5starバイリンガル保育士養成センター */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,200,300,400,500,600&display=swap&subset=japanese');
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 300;
+  background-color: #f0f0f0;
+  color: #333333;
+}
+header,main,footer{
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+section {
+  margin: 2rem 0;
+}
+
+#logobar {
+  padding: 2rem 1rem 0.5rem 2rem;
+  margin: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  background-color: white;
+}
+
+#slogan {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#slogan p {
+  margin: 0;
+  padding: 0;
+}
+#slogan p.jp {
+  font-size: 14px;
+  font-weight: 100;
+}
+#slogan p.en {
+  font-size: 8.75px;
+  font-weight: 100;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+main section {
+  padding: 2rem 0;
+}
+
+h1,h2,h3,h4 {
+  color: #ff5555;
+  font-weight: 300;
+  text-align: left;
+}
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.5em;
+}
+
+main h3, main h4 {
+  color: #ff5555;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.accent {
+  color: #333333;
+}
+
+.logo {
+  text-align: center;
+
+}
+
+#intro, #healthygrowth, #imitation {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#intro img, #phonics img {
+  float: right;
+  margin-left: 2rem;
+}
+#intro h1 {
+  font-size: 1em;
+  margin: 0;
+}
+#introtext {
+  margin: 3rem;
+}
+
+#healthygrowth {
+  text-align: center;
+  padding: 0 4rem;
+}
+
+#points {
+  padding: 0 7rem;
+}
+#points h1 {
+  font-size: 2.5em;
+  font-weight: 100;
+}
+#points h2 {
+  font-size: 1.3em;
+  font-weight: 400;
+  margin: 1em 0 0 0;
+}
+
+#imitation img {
+  float: left;
+  margin: 0 3rem 2rem 0;
+}
+#imitation h1 {
+  font-size: 1.5em;
+  font-weight: 200;
+  padding: 3rem;
+}
+#imitation p {
+  clear: both;
+  padding: 0 4rem;
+}
+
+#circletime-benefits {
+  padding: 2rem 4rem;
+}
+#circletime-benefits h1 {
+  font-weight: 100;
+}
+#circletime-benefits ul {
+  list-style-position: outside;
+  list-style-image: url('../images/bullet.png');
+}
+#circletime-benefits ul li {
+  margin: 1em 2rem;
+}
+
+#circletime-breakdown {
+  padding: 4rem 4rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#circletime-breakdown-header {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#circletime-breakdown-header h1 {
+  padding-top: 0;
+  margin-top: 0;
+  font-weight: 100;
+}
+#circletime-breakdown-header-text p {
+  font-size: 1.2em;
+}
+#circletime-breakdown h2 {
+  color: #333333;
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 1em 0 0 0;
+}
+
+#phonics h1 {
+  margin: 0 0 1rem 3rem;
+  font-weight: 100;
+}
+#phonics p {
+  margin: 0 3rem;
+}
+
+#curriculum-benefits {
+  padding: 0 3rem;
+}
+#curriculum-benefits h2 {
+  margin: 0.8em 0 0 0;
+  font-size: 1.6em;
+  font-weight: 500;
+}
+
+#contact-phone {
+  text-align: center;
+  margin: 20px 0;
+}
+#contact-phone p {
+  font-size: 1.7em;
+  font-weight: 100;
+}
+.phone{
+  margin: -0.6em 0;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+}
+.phone .phone-number {
+  font-size: 3em;
+  font-weight: 400;
+  color: #ff5555;
+  margin: 0 0.5rem;
+}
+#phone .description {
+  font-size: 0.7em;
+}
+
+#contact-form {
+  text-align: center;
+  padding: 0 4rem;
+}
+#contact-form h1 {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 2em;
+  font-weight: 100;
+}
+#contact-form .subtitle {
+  text-align: center;
+  font-size: 0.8em;
+}
+#contact-form .accent {
+  color: #ff5555;
+}
+#contact-form a {
+  color: #333333;
+  text-decoration: none;
+  border-bottom: 1px #333333 dashed;
+}
+.contact-form {
+  margin-top: 2em;
+}
+.contact-form > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.contact-form div fieldset {
+  text-align: left;
+  border: 0;
+}
+fieldset.options, fieldset.details {
+  flex-grow: 1;
+  flex-basis: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+fieldset.options legend {
+  font-size: 1.4rem;
+}
+fieldset.options .note {
+  font-size: 0.5em;
+}
+fieldset.options p {
+  font-size: 0.7em;
+  margin: 0;
+}
+fieldset.options p {
+  font-size: 0.7em;
+  margin-bottom: 0.2rem;
+}
+fieldset#facility-type div.options {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100px;
+}
+.contact-form div fieldset.message {
+  flex-grow: 1;
+  flex-basis: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.contact-form input, .contact-form textarea {
+  border: 1px solid #ff5555;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 17px;
+}
+.contact-form input[type=checkbox] {
+  margin: 0.5em 0.3em 0.5em 0;
+}
+.contact-form input[type=text], .contact-form textarea {
+  width: 100%;
+}
+.contact-form input[type="submit"] {
+  background-color: gray;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+}
+
+
+footer {
+  margin: 50px auto;
+  text-align: center;
+}
+footer .jp {
+  font-size: 1em;
+}
+footer .en {
+  font-size: 0.8em;
+}
+footer .addresses {
+  margin: 20px auto;
+}
+footer address {
+  font-size: 0.6em;
+}
